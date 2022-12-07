@@ -1,0 +1,23 @@
+.navigation {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+
+  .navbar {
+    width: 500px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+}
